@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mecânica de Motos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mecânica de Motos</h1>
+    <nav>
+      <ul>
+        <li><a href="#empresa">Sobre Nós</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#vantagens">Vantagens</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="empresa">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma equipe apaixonada por motos, especializada em manutenção, reparo e customização de motocicletas de todas as marcas e modelos.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Reparos mecânicos</li>
+      <li>Troca de óleo</li>
+      <li>Ajuste de freios e suspensão</li>
+      <li>Customização e personalização</li>
+    </ul>
+  </section>
+
+  <section id="vantagens">
+    <h2>Vantagens</h2>
+    <ul>
+      <li>Profissionais qualificados</li>
+      <li>Atendimento rápido e eficiente</li>
+      <li>Preços competitivos</li>
+      <li>Garantia de serviço</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <form action="enviar.php" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Mecânica de Motos. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
